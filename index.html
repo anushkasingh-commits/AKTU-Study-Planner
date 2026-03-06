@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKTU Study Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="section-1">
+        <div id="div-1">
+            <h1 id="h1-1">AKTU Smart Study Planner</h1>
+            <h2 id="h2-1">Engineering <span class="highlight">Smarter</span> Study Hours.</h2>
+        </div>
+    </section>
+    <section id="section-2">
+        <div id="div-2">
+            <h2 id="h2-2">Create Your Study Plan</h2>
+            <!-- <div class="subject">
+                <div class="field">
+                    <label>Subject</label>
+                    <input type="text" placeholder="Enter subject name" />
+                </div>
+                <div class="field">
+                    <label>Difficulty (1-5)</label>
+                    <input type="number" min="1" max="12" />
+                </div>
+            </div> -->
+            <div id="subjects-container"></div>
+            <button id="add-sub">Add Subject</button>
+            <div class="time">
+                <label>Exam Date</label>
+                <input type="date">
+            </div>
+            <div class="time">
+                <label>Hours per Day</label>
+                <input type="number" min="1" max="12" />
+            </div>
+            <button id="generate">Generate Plan</button>
+            <div id="result"></div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
